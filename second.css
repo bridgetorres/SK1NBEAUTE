@@ -1,0 +1,210 @@
+
+body{
+  background: #e3deda;
+}
+
+h1{
+  font-size: 80px;
+text-align:center;
+ font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+color:white;
+padding-top: 20px;
+text-shadow: 2px 2px #361134;
+}
+
+.intro{
+  /* text-align: center; */
+  text-align: justify;
+  font-family: 'Mukta', sans-serif;
+  color: black;
+
+  
+}
+
+.titlee{
+  text-align: center;
+  font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+  color: black;
+  font-size: 50px;
+
+
+}
+.acnetitle{
+position: absolute;
+top: 73%;
+right: 55%;
+  font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+}
+
+.acne{
+  float: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* #skin{
+  display:flex;
+  justify-content:flex-end;
+flex-direction:column;
+justify-content: flex-start;
+} */
+.acneskin{ 
+            display: flex; 
+            align-items: center; 
+        } 
+           
+        span { 
+            padding: 10px; 
+        } 
+
+.dryskin{
+  display: flex;
+  align-items: center;
+}
+span{
+  padding: 10px;
+}
+
+.drytitle{
+  position: absolute;
+top: 125%;
+right: 62%;
+  font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+}
+.oilyskin{
+  display: flex;
+  align-items: center;
+}
+span{
+  padding: 10px;
+}
+.oilytitle{
+position: absolute;
+top: 175%;
+right: 63%;
+  font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+}
+
+.oilbutton
+{
+  margin: 0;
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: none;
+
+ 
+}
+.drybutton
+{
+  margin: 0;
+  position: absolute;
+  top: 155%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.acnebutton
+{
+  margin: 0;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.combobutton{
+   margin: 0;
+  position: absolute;
+  top: 260%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.comboskin{
+ display: flex;
+  align-items: center;
+}
+span{
+  padding: 10px;
+}
+.combotitle{
+  position: absolute;
+top: 230%;
+right: 55%;
+  font-family: larssiet, "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, Verdana, sans-serif;
+}
+/* .dry{
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.oily{
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.combo{
+  float: left;
+   display: flex;
+   justify-content: flex-start; 
+} */
+ .acnep
+ {
+   font-family: 'Mukta', sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+    float: left;
+  width: 500px;
+  height: 100px;
+ }
+ .dryp{
+   font-family: 'Mukta', sans-serif;
+    font-weight: normal;
+   font-size: 16px;
+    float: left;
+  width: 500px;
+  height: 100px;
+ }
+ .oilyp{
+   font-family: 'Mukta', sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+    float: left;
+  width: 500px;
+  height: 100px;
+ }
+ .combop{
+   font-family: 'Mukta', sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+    float: left;
+  width: 500px;
+  height: 100px;
+ }
+a{
+  color:#f8f8f8;
+  text-shadow: 1px 1px #361134;
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:link, a:visited {
+  background-color:#c84b40;
+  padding: 14px 25px;
+  font-size: 20px;
+}
